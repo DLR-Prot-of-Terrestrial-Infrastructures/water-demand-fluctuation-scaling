@@ -122,7 +122,7 @@ Bernhard Jonathan Sattler, Institute for the Protection of Terrestrial Infrastru
 ## Contributors
 [(Back to top)](#table-of-contents)
 
--
+- Bernhard Jonathan Sattler, Institute for the Protection of Terrestrial Infrastructures, German Aerospace Center (DLR)
 
 ## License
 [(Back to top)](#table-of-contents)
