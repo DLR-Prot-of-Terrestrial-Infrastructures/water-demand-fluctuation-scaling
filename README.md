@@ -30,7 +30,7 @@ Finally, the results are plotted and summarized by the scripts.
 
 ## Dependencies
 
-Detailed information on dependencies and the versions used for the generation of the results in the paper is given in the `taylors_law.yml` file.
+Detailed information on dependencies and the versions used for the generation of the results in the paper is given in the `environment.yml` file.
 
 - Python 3.14
 
@@ -43,6 +43,8 @@ Detailed information on dependencies and the versions used for the generation of
 ## Contained files
 
 ### Scripts:
+All following scripts are located in the `\src\time_variant_power_law_fluctuation_scaling` directory.
+
 1. `__main__.py`:         Executable main script.
 Will run the scripts 2 through 6 and produce the plots and Table contents for the paper.
 2. `data_cleaning.py`:    Methods for preprocessing the input data.
@@ -51,12 +53,13 @@ Cleans empty, incomplete or duplicate data, averaging to hourly data for the WSN
 4. `results_analysis.py`: Methods to aggregate the Monte Carlo runs and reduce the results to the point estimates and credible intervals.
 5. `plotters.py`:         Methods to produce the plots displayed in the paper.
 6. `generate_table_2.py`: Methods to generate the $\LaTeX$ code for Table 2 of the paper.
+7. `dlr_style.mplstyle`:  Matplotlib configuration file for correct representation of plots.
 
 ### Input data:
 The input data is available under:
 https://datastore.dlr-pi.de/s/pFnNTzCBgrFYCW7
 
-Please download the two input files and place them in the `\src` directory to enable the data import.
+Please download the two input files and place them in the `\src\time_variant_power_law_fluctuation_scaling`  directory to enable the data import.
 Both files are NOT part of the work in this paper but are provided in the following publications:
 
 
@@ -71,7 +74,7 @@ Mohan Doss, P., et al. “Sewer Network and Smart Water Meter Data for Modelling
 ## Features
 [(Back to top)](#table-of-contents)
 
-The code can be run by running the main script via the terminal input `python __main__.py`.
+The code can be run by executing the main script via the terminal input `python __main__.py`.
 This generates the results presented in the paper.
 The code performs the following steps of analysis:
 
